@@ -5,7 +5,7 @@ package lambda.abstracao.personapi.controller;
         import lambda.abstracao.personapi.dto.response.MessageResponseDTO;
         import lambda.abstracao.personapi.entity.Person;
         import lambda.abstracao.personapi.exception.PersonNotFoundException;
-        import one.digitalinnovation.personapi.service.PersonService;
+        import lambda.abstracao.personapi.service.PersonService;
         import org.springframework.beans.factory.annotation.Autowired;
         import org.springframework.http.HttpStatus;
         import org.springframework.web.bind.annotation.DeleteMapping;
